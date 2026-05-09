@@ -1,6 +1,6 @@
 # Codebase Investigator
 
-CLI agent that answers questions about a public GitHub repo, with citations.
+A CLI agent that answers questions about a public GitHub repo, with citations.
 
 Point it at a repo, ask things in plain English, and it answers with `file:line` references grounded in the code. Every non-trivial answer gets an independent audit pass that re-checks the citations and flags reasoning holes. Example: *"how does auth work in this repo?"* → answer with `auth.py:40-72` style references, plus an audit verdict.
 
